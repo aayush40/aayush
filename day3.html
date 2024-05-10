@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- <table border="1px" cellpadding="10px" cellspacing="0">
+      <thead>
+
+        <th>Activity</th>
+        <th>Time</th>
+        <th>Image</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>wakeup</td>
+          <td>5:00Am</td>
+          <td> <img src="assets/image/wakeup.jpg" width="150px" height="200px"> </td>
+        </tr>
+        <tr>
+          <td>Breakfast</td>
+          <td>5:30Am</td>
+          <td> <img src="assets/image/break fast.jpg" width="150px" height="200px"> </td>
+        </tr>
+        <tr>
+          <td>Ready for class</td>
+          <td>6:00Am</td>
+          <td> <img src="assets/image/class.jpg" width="150px height=150px"> </td>
+        </tr>
+
+      </tbody>
+    </table> -->
+    <fieldset>
+      <legend>your email address</legend>
+
+      <form action="mailto:aayushnepal122@gmail.com" method="post">
+        <p>
+          <label for="mail">email</label>
+          <input type="email" id="mail" placeholder="example@gmail.com" required>
+
+        </p>
+        <p>
+        <h3>select your Gender</h3>
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female" value="female">
+
+        </p>
+
+        <p>
+        <h3>select habit</h3>
+        <label for="Dance">Dance</label>
+        <input type="checkbox" name="habits" id="dance" value="dance" checked>
+
+        <label for="Gaming">gaming</label>
+        <input type="checkbox" name="habitsr" id="Gmaming" value="Gaming">
+        <label for="Reading">Reading</label>
+        <input type="checkbox" name="habits" id="Reading" value="Reading">
+
+        <h3>select your country</h3>
+        <select name="country" id="country">
+          <option value="nepal">Nepal</option>
+          <option value="India">India</option>
+          <option value="USA">USA</option>
+          <option value="Austria">Austria</option>
+          <option value="bangladesh">Bangladesh</option>
+        </select>
+
+        </p>
+        <p>
+        <h3>select your coffee</h3>
+        <select name="coffee">
+          <optgroup label="hard coffee">
+            <option value="expresso">Expresso</option>
+            <option value="mohito">Mohito</option>
+          </optgroup>
+          <optgroup label="soft coffee">
+            <option value="cappuchino">cappuchino</option>
+            <option value="late">Late</option>
+
+
+          </optgroup>
+        </select>
+        </p>
+        <p>
+          <label for="date" select date of joining></label>
+          <input type="date" name="date" id="date">
+        </p>
+        <p>
+          <label for="color" Select your fav color></label>
+          <input type="color" id="color" name="color">
+        </p>
+        <p>
+        <h3>enter your message</h3>
+        <textarea placeholder="type message" name="msg" cols="30" rows="10"></textarea>
+        </p>
+
+
+
+
+
+      </form>
+    </fieldset>
+
+    <fieldset>
+      <legend>enter your username</legend>
+      <form action="">
+        <p>
+          <label for="username">username</label>
+          <input type="text" id="username" placeholder="abcdefgh" maxlength="10">
+
+        </p>
+
+      </form>
+    </fieldset>
+
+    <fieldset>
+      <legend> your password</legend>
+      <form action="">
+        <p>
+          <label for="ps">password</label>
+          <input type="password" id="ps" placeholder="*******" required>
+        </p>
+
+      </form>
+    </fieldset>
+
+
+
+    <button type="submit">submit</button>
+    <button type="reset">reset</button>
+
+
+
+
+  </body>
+
+</html>
